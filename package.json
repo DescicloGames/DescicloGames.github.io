@@ -1,23 +1,18 @@
 {
-  "name": "desciclogamessite",
-  "version": "1.0.0",
-  "description": "Homepage DescicloGames",
- "main": "",
-  "scripts": {
-    "start": "live-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DescicloGames/DescicloGames.github.io.git"
-  },
-  "author": "Arthur Candido Regueira de Miranda",
-  "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/DescicloGames/DescicloGames.github.io/issues"
-  },
-  "homepage": "https://github.com/DescicloGames/DescicloGames.github.io#readme",
+  "name": "desciclogames",
+  "version": "0.0.01",
+  "description": "Homepage of DescicloGames",
+  "main": "index.html",
+  "repository": "https://github.com/DescicloGames/site.git",
+  "author": "TuzinRS <arthur.regueira@aol.com>",
+  "license": "MIT",
+  "private": ,
   "dependencies": {
-    "live-server": "1.2.1",
-    "sass": "1.32.0"
+    "live-server": "^1.2.1",
+    "sass": "^1.32.5"
+  },
+  "scripts": {
+    "start": "live-server",
+    "build-style": "sass src/styles/main.sass"
   }
 }
